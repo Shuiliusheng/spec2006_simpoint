@@ -1,0 +1,72 @@
+400.perlbench          1        900000000001    	check 
+400.perlbench          2        484874120907  ok	check    
+400.perlbench          3        817962478336  ok	check                
+           
+401.bzip2              1        567126834661  ok	check
+401.bzip2              2        219152907723  ok	check
+401.bzip2              3        392449601106  ok	check
+401.bzip2              4        695225989648  ok	check
+401.bzip2              5        900000000001		check
+401.bzip2              6		448616797816  ok	check
+        
+403.gcc                1        102984578613  ok	check
+403.gcc                2        190791146426  ok	check
+403.gcc                3        210624711740  ok	check
+403.gcc                4        145864868249  ok	check
+403.gcc                5        161343874429  ok	check
+403.gcc                6        220560970809  ok	check
+403.gcc                7        252438187102  ok	check
+403.gcc                8        250352888676  ok 	check
+403.gcc                9		74451863477	     	check
+        
+429.mcf                1        350504020474  ok    check
+
+445.gobmk              1        131621341646  ok 	check
+445.gobmk              2        581302710337  ok 	check
+445.gobmk              3        900000000001	 	check   
+445.gobmk              4        288814540929  ok 	check
+445.gobmk              5        411301927241  ok 	check
+       
+456.hmmer              1        900000000001		check
+456.hmmer              2		900000000001		check
+        
+458.sjeng              1        900000000001		check
+462.libquantum         1        900000000001		check
+        
+464.h264ref            1        628901912882  ok	check
+464.h264ref            2        578239771036  ok 	check
+464.h264ref            3		900000000001		check
+        
+471.omnetpp            1       	673818976191  ok    check
+
+473.astar              1       	900000000001   		check
+473.astar              2  		900000000001	  	check
+      
+483.xalancbmk          1       	!!! 
+num_int=12
+
+410.bwaves            1       	900000000001    	check
+        
+416.gamess            1        	900000000001    	check
+416.gamess            2        	900000000001    	check
+416.gamess            3 	   	900000000001    	check
+       
+433.milc              1        	900000000001    	check
+434.zeusmp            1        	900000000001		check
+435.gromacs           1        	900000000001		check
+436.cactusADM         1        	900000000001		check
+437.leslie3d          1        	900000000001		check
+444.namd              1        	900000000001		check
+447.dealII            1		   	900000000001		check
+      
+450.soplex            1        	407331225911 		check
+450.soplex            2        	433408693577 		check
+			
+453.povray            1        	900000000001		check
+454.calculix          1        	900000000001		check
+459.GemsFDTD          1        	900000000001		check
+465.tonto             1        	900000000001		check	
+470.lbm               1        	123895195939 !!!	check
+481.wrf               1        	775670000000(without stats file but has simpoint file)    	check
+482.sphinx3           1        	  3297115845 !!!
+num_fp=17

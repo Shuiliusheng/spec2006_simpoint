@@ -1,0 +1,72 @@
+400.perlbench          1        900000000000	check
+400.perlbench          2        365859833685	check	
+400.perlbench          3        671511077556	check
+           
+401.bzip2              1        403570237422	check
+401.bzip2              2        171595384674	check
+401.bzip2              3        276710866970	check
+401.bzip2              4        530436678911	check
+401.bzip2              5        570224385425	check
+401.bzip2              6		322589278635	check
+        
+403.gcc                1        63557304984		check		
+403.gcc                2        131072818937	check
+403.gcc                3        108524058359	check
+403.gcc                4        80096193555		check
+403.gcc                5        89059461207		check
+403.gcc                6        121189853632	check
+403.gcc                7        156121438706	check
+403.gcc                8        132249079718	check
+403.gcc                9		51086568931 	check
+        
+429.mcf                1        285501807830	check
+
+445.gobmk              1        211234556804	check
+445.gobmk              2        563606398149	check
+445.gobmk              3        293500652327	check
+445.gobmk              4        211622666941	check
+445.gobmk              5        303659790320	check
+       
+456.hmmer              1        810248751163	check
+456.hmmer              2		900000000000	check
+        
+458.sjeng              1        900000000001	check
+462.libquantum         1        900000000000	check
+        
+464.h264ref            1        445786790996	check
+464.h264ref            2        246551902313	check
+464.h264ref            3		900000000000
+        
+471.omnetpp            1       	542879284228	check
+
+473.astar              1       	628301534903	check
+473.astar              2  		299241714085	check
+      
+483.xalancbmk          1       	900000000000	check
+num_int=12
+
+410.bwaves            1       	900000000000	check
+        
+416.gamess            1        	900000000000	check
+416.gamess            2        	900000000000	check	
+416.gamess            3 	   	92895669365 !!!	check
+       
+433.milc              1        	900000000000	check
+434.zeusmp            1        	900000000000	check
+435.gromacs           1        	900000000000	check
+436.cactusADM         1        	
+437.leslie3d          1        	900000000000
+444.namd              1        	900000000000	check
+447.dealII            1		   	583530849!!!
+      
+450.soplex            1        	329692263217	check
+450.soplex            2        	333731343647	check
+			
+453.povray            1        	855400135264
+454.calculix          1        	900000000000	check
+459.GemsFDTD          1        	900000000000
+465.tonto             1        	3195972163  !!!	check
+470.lbm               1        	124559791389 !!! check
+481.wrf               1        	626769195!!!	check
+482.sphinx3           1        	900000000001
+num_fp=17

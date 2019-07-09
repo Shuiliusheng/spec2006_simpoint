@@ -1,0 +1,36 @@
+
+******************************directory****************************
+spec_dir: /home/cuihongwei/experiment/mcpat-gem5-master/spec2006
+run_dir:  /home/cuihongwei/experiment/mcpat-gem5-master/spec2006/benchspec/CPU2006/483.xalancbmk/run/run_base_ref_amd64.0001
+gem5_dir: /home/cuihongwei/experiment/experiment-gem5/raw-gem5
+gem5_output_dir: /home/cuihongwei/experiment/experiment-gem5/raw-gem5/output/alpha-483.xalancbmk-input1-190425-212223
+benchmark_output:/home/cuihongwei/experiment/experiment-gem5/raw-gem5/output/alpha-483.xalancbmk-input1-190425-212223
+
+******************************benchmark****************************
+target:     483.xalancbmk
+executable: Xalan
+args:       -v t5.xml xalanc.xsl
+input:      
+output:     /home/cuihongwei/experiment/experiment-gem5/raw-gem5/output/alpha-483.xalancbmk-input1-190425-212223/ref.out
+errout:     /home/cuihongwei/experiment/experiment-gem5/raw-gem5/output/alpha-483.xalancbmk-input1-190425-212223/ref.err
+
+******************************gem5****************************
+arch:       /home/cuihongwei/experiment/experiment-gem5/raw-gem5/build/ALPHA/gem5.opt
+config:     /home/cuihongwei/experiment/experiment-gem5/raw-gem5/configs/example/se.py
+args:       --num-cpus=1 --mem-size=8GB --l1d_assoc=8 --l2_assoc=16 --l1i_assoc=4 --cpu-type=DerivO3CPU --caches --l2cache
+
+******************************simulation****************************
+start time:(year-mon-day hour-minute-second)19-04-25 21-22-23
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Apr 10 2019 15:22:13
+gem5 started Apr 25 2019 21:22:24
+gem5 executing on mprc-R730, pid 24962
+command line: /home/cuihongwei/experiment/experiment-gem5/raw-gem5/build/ALPHA/gem5.opt --outdir=/home/cuihongwei/experiment/experiment-gem5/raw-gem5/output/alpha-483.xalancbmk-input1-190425-212223 /home/cuihongwei/experiment/experiment-gem5/raw-gem5/configs/example/se.py --num-cpus=1 --mem-size=8GB --l1d_assoc=8 --l2_assoc=16 --l1i_assoc=4 --cpu-type=DerivO3CPU --caches --l2cache --cmd=/home/cuihongwei/experiment/mcpat-gem5-master/spec2006/benchspec/CPU2006/483.xalancbmk/run/build_peak_alpha.0001/Xalan '--options=-v t5.xml xalanc.xsl' --output=/home/cuihongwei/experiment/experiment-gem5/raw-gem5/output/alpha-483.xalancbmk-input1-190425-212223/ref.out --input= --errout=/home/cuihongwei/experiment/experiment-gem5/raw-gem5/output/alpha-483.xalancbmk-input1-190425-212223/ref.err
+
+Global frequency set at 1000000000000 ticks per second
+**** REAL SIMULATION ****
+end time:(year-mon-day hour-minute-second)19-04-25 21-22-26
+specdiff:    
+specdiff_log:    /home/cuihongwei/experiment/experiment-gem5/raw-gem5/output/alpha-483.xalancbmk-input1-190425-212223/483.xalancbmk_input1_specdiff.sh

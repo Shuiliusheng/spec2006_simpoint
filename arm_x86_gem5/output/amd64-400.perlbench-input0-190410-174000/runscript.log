@@ -1,0 +1,37 @@
+
+******************************directory****************************
+spec_dir: /home/cuihongwei/experiment/mcpat-gem5-master/spec2006
+run_dir:  /home/cuihongwei/experiment/mcpat-gem5-master/spec2006/benchspec/CPU2006/400.perlbench/run/run_base_ref_amd64.0001
+gem5_dir: /home/cuihongwei/experiment/experiment-gem5/raw-gem5
+gem5_output_dir: /home/cuihongwei/experiment/experiment-gem5/raw-gem5/output/amd64-400.perlbench-input0-190410-174000
+benchmark_output:/home/cuihongwei/experiment/experiment-gem5/raw-gem5/output/amd64-400.perlbench-input0-190410-174000
+
+******************************benchmark****************************
+target:     400.perlbench
+executable: perlbench
+args:       -I. -I./lib attrs.pl
+input:      
+output:     /home/cuihongwei/experiment/experiment-gem5/raw-gem5/output/amd64-400.perlbench-input0-190410-174000/attrs.out
+errout:     /home/cuihongwei/experiment/experiment-gem5/raw-gem5/output/amd64-400.perlbench-input0-190410-174000/attrs.err
+
+******************************gem5****************************
+arch:       /home/cuihongwei/experiment/experiment-gem5/raw-gem5/build/X86/gem5.opt
+config:     /home/cuihongwei/experiment/experiment-gem5/raw-gem5/configs/example/se.py
+args:       --num-cpus=1 --mem-size=8GB --l1d_assoc=8 --l2_assoc=16 --l1i_assoc=4 --cpu-type=DerivO3CPU --caches --l2cache
+
+******************************simulation****************************
+start time:(year-mon-day hour-minute-second)19-04-10 17-40-00
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Mar 20 2019 16:55:28
+gem5 started Apr 10 2019 17:40:00
+gem5 executing on mprc-R730, pid 29502
+command line: /home/cuihongwei/experiment/experiment-gem5/raw-gem5/build/X86/gem5.opt --outdir=/home/cuihongwei/experiment/experiment-gem5/raw-gem5/output/amd64-400.perlbench-input0-190410-174000 /home/cuihongwei/experiment/experiment-gem5/raw-gem5/configs/example/se.py --num-cpus=1 --mem-size=8GB --l1d_assoc=8 --l2_assoc=16 --l1i_assoc=4 --cpu-type=DerivO3CPU --caches --l2cache --cmd=/home/cuihongwei/experiment/mcpat-gem5-master/spec2006/benchspec/CPU2006/400.perlbench/run/build_peak_amd64.0001/perlbench '--options=-I. -I./lib attrs.pl' --output=/home/cuihongwei/experiment/experiment-gem5/raw-gem5/output/amd64-400.perlbench-input0-190410-174000/attrs.out --input= --errout=/home/cuihongwei/experiment/experiment-gem5/raw-gem5/output/amd64-400.perlbench-input0-190410-174000/attrs.err
+
+Global frequency set at 1000000000000 ticks per second
+**** REAL SIMULATION ****
+Exiting @ tick 16335770000 because exiting with last active thread context
+end time:(year-mon-day hour-minute-second)19-04-10 17-44-01
+specdiff:    
+specdiff_log:    /home/cuihongwei/experiment/experiment-gem5/raw-gem5/output/amd64-400.perlbench-input0-190410-174000/400.perlbench_input0_specdiff.sh

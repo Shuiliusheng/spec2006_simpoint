@@ -1,0 +1,354 @@
+
+******************************directory****************************
+spec_dir: /home/cuihongwei/experiment/mcpat-gem5-master/spec2006/benchspec/CPU2006
+run_dir:  /home/cuihongwei/experiment/mcpat-gem5-master/spec2006/benchspec/CPU2006/454.calculix/run/run_base_ref_amd64.0001
+gem5_dir: /home/cuihongwei/experiment/experiment-gem5/raw-gem5
+gem5_output_dir: /home/cuihongwei/experiment/experiment-gem5/raw-gem5/output/454.calculix/alpha-OLD-454.calculix-input1-190330-232943
+benchmark_output:/home/cuihongwei/experiment/experiment-gem5/raw-gem5/output/454.calculix/alpha-OLD-454.calculix-input1-190330-232943
+checkpoint_dir:/home/cuihongwei/experiment/experiment-gem5/pubs-gem5/output/alpha-454.calculix-checkpoint-input1
+
+******************************benchmark****************************
+target:     454.calculix
+executable: calculix
+args:       -i hyperviscoplastic
+input:      
+output:     /home/cuihongwei/experiment/experiment-gem5/raw-gem5/output/454.calculix/alpha-OLD-454.calculix-input1-190330-232943/hyperviscoplastic.out
+errout:     /home/cuihongwei/experiment/experiment-gem5/raw-gem5/output/454.calculix/alpha-OLD-454.calculix-input1-190330-232943/hyperviscoplastic.err
+
+******************************gem5****************************
+arch:       /home/cuihongwei/experiment/experiment-gem5/raw-gem5/build/ALPHA/gem5.opt
+config:     /home/cuihongwei/experiment/experiment-gem5/raw-gem5/configs/example/se.py
+args:       --num-cpus=1 --mem-size=8GB --caches --l1d_size=32kB --l1d_assoc=8 --l1i_size=32kB --l1i_assoc=8 --l2cache --l2_size=2MB --l2_assoc=16 --at-instruction --checkpoint-restore=5000000000 --maxinsts=100000000 --cpu-type=DerivO3CPU
+debugFlag:  --debug-flags=ShowRunning
+
+******************************simulation****************************
+start time:(year-mon-day hour-minute-second)19-03-30 23-29-43
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Mar 30 2019 20:24:53
+gem5 started Mar 30 2019 23:29:44
+gem5 executing on mprc-R730, pid 14854
+command line: /home/cuihongwei/experiment/experiment-gem5/raw-gem5/build/ALPHA/gem5.opt --outdir=/home/cuihongwei/experiment/experiment-gem5/raw-gem5/output/454.calculix/alpha-OLD-454.calculix-input1-190330-232943 --debug-flags=ShowRunning /home/cuihongwei/experiment/experiment-gem5/raw-gem5/configs/example/se.py --num-cpus=1 --mem-size=8GB --caches --l1d_size=32kB --l1d_assoc=8 --l1i_size=32kB --l1i_assoc=8 --l2cache --l2_size=2MB --l2_assoc=16 --at-instruction --checkpoint-restore=5000000000 --maxinsts=100000000 --cpu-type=DerivO3CPU --checkpoint-dir=/home/cuihongwei/experiment/experiment-gem5/pubs-gem5/output/alpha-454.calculix-checkpoint-input1 --cmd=/home/cuihongwei/experiment/mcpat-gem5-master/spec2006/benchspec/CPU2006/454.calculix/run/build_peak_alpha.0001/calculix '--options=-i hyperviscoplastic' --output=/home/cuihongwei/experiment/experiment-gem5/raw-gem5/output/454.calculix/alpha-OLD-454.calculix-input1-190330-232943/hyperviscoplastic.out --input= --errout=/home/cuihongwei/experiment/experiment-gem5/raw-gem5/output/454.calculix/alpha-OLD-454.calculix-input1-190330-232943/hyperviscoplastic.err
+
+Global frequency set at 1000000000000 ticks per second
+Switch at curTick count:10000
+Switched CPUS @ tick 1444466120500
+switching cpus
+**** REAL SIMULATION ****
+1444466121000: system.switch_cpus: Raw Gem5 Running in Cycle:               0, Inst:               0
+1444527294500: system.switch_cpus: Raw Gem5 Running in Cycle:          100000, Inst:          164353
+1444577294500: system.switch_cpus: Raw Gem5 Running in Cycle:          200000, Inst:          492864
+1444627294500: system.switch_cpus: Raw Gem5 Running in Cycle:          300000, Inst:          825447
+1444677294500: system.switch_cpus: Raw Gem5 Running in Cycle:          400000, Inst:         1165824
+1444728738000: system.switch_cpus: Raw Gem5 Running in Cycle:          500000, Inst:         1302969
+1444778738000: system.switch_cpus: Raw Gem5 Running in Cycle:          600000, Inst:         1446696
+1444830319000: system.switch_cpus: Raw Gem5 Running in Cycle:          700000, Inst:         1613121
+1444880319000: system.switch_cpus: Raw Gem5 Running in Cycle:          800000, Inst:         1931881
+1444930319000: system.switch_cpus: Raw Gem5 Running in Cycle:          900000, Inst:         2269577
+1444980319000: system.switch_cpus: Raw Gem5 Running in Cycle:         1000000, Inst:         2606414
+1445030319000: system.switch_cpus: Raw Gem5 Running in Cycle:         1100000, Inst:         2942819
+1445080319000: system.switch_cpus: Raw Gem5 Running in Cycle:         1200000, Inst:         3292365
+1445130319000: system.switch_cpus: Raw Gem5 Running in Cycle:         1300000, Inst:         3628924
+1445180319000: system.switch_cpus: Raw Gem5 Running in Cycle:         1400000, Inst:         3965605
+1445230319000: system.switch_cpus: Raw Gem5 Running in Cycle:         1500000, Inst:         4301441
+1445280319000: system.switch_cpus: Raw Gem5 Running in Cycle:         1600000, Inst:         4641063
+1445330319000: system.switch_cpus: Raw Gem5 Running in Cycle:         1700000, Inst:         4981958
+1445380319000: system.switch_cpus: Raw Gem5 Running in Cycle:         1800000, Inst:         5333255
+1445430319000: system.switch_cpus: Raw Gem5 Running in Cycle:         1900000, Inst:         5673927
+1445480319000: system.switch_cpus: Raw Gem5 Running in Cycle:         2000000, Inst:         6024727
+1445530319000: system.switch_cpus: Raw Gem5 Running in Cycle:         2100000, Inst:         6371422
+1445580320000: system.switch_cpus: Raw Gem5 Running in Cycle:         2200000, Inst:         6661063
+1445630320000: system.switch_cpus: Raw Gem5 Running in Cycle:         2300000, Inst:         6802094
+1445680320000: system.switch_cpus: Raw Gem5 Running in Cycle:         2400000, Inst:         6976341
+1445730320000: system.switch_cpus: Raw Gem5 Running in Cycle:         2500000, Inst:         7265387
+1445780320000: system.switch_cpus: Raw Gem5 Running in Cycle:         2600000, Inst:         7613659
+1445830320000: system.switch_cpus: Raw Gem5 Running in Cycle:         2700000, Inst:         7973343
+1445880320000: system.switch_cpus: Raw Gem5 Running in Cycle:         2800000, Inst:         8323316
+1445930320000: system.switch_cpus: Raw Gem5 Running in Cycle:         2900000, Inst:         8674224
+1445980320000: system.switch_cpus: Raw Gem5 Running in Cycle:         3000000, Inst:         9022198
+1446030320000: system.switch_cpus: Raw Gem5 Running in Cycle:         3100000, Inst:         9372886
+1446080320000: system.switch_cpus: Raw Gem5 Running in Cycle:         3200000, Inst:         9719021
+1446130320000: system.switch_cpus: Raw Gem5 Running in Cycle:         3300000, Inst:        10069092
+1446180320000: system.switch_cpus: Raw Gem5 Running in Cycle:         3400000, Inst:        10416598
+1446230320000: system.switch_cpus: Raw Gem5 Running in Cycle:         3500000, Inst:        10768605
+1446280320000: system.switch_cpus: Raw Gem5 Running in Cycle:         3600000, Inst:        11126197
+1446330320000: system.switch_cpus: Raw Gem5 Running in Cycle:         3700000, Inst:        11474053
+1446380320000: system.switch_cpus: Raw Gem5 Running in Cycle:         3800000, Inst:        11826198
+1446430320000: system.switch_cpus: Raw Gem5 Running in Cycle:         3900000, Inst:        12084525
+1446480320000: system.switch_cpus: Raw Gem5 Running in Cycle:         4000000, Inst:        12244364
+1446530320000: system.switch_cpus: Raw Gem5 Running in Cycle:         4100000, Inst:        12415092
+1446580320000: system.switch_cpus: Raw Gem5 Running in Cycle:         4200000, Inst:        12733852
+1446630320000: system.switch_cpus: Raw Gem5 Running in Cycle:         4300000, Inst:        13079223
+1446680320000: system.switch_cpus: Raw Gem5 Running in Cycle:         4400000, Inst:        13430687
+1446730320000: system.switch_cpus: Raw Gem5 Running in Cycle:         4500000, Inst:        13776656
+1446780320000: system.switch_cpus: Raw Gem5 Running in Cycle:         4600000, Inst:        14129891
+1446830320000: system.switch_cpus: Raw Gem5 Running in Cycle:         4700000, Inst:        14482176
+1446880320000: system.switch_cpus: Raw Gem5 Running in Cycle:         4800000, Inst:        14825888
+1446930320000: system.switch_cpus: Raw Gem5 Running in Cycle:         4900000, Inst:        15175847
+1446980320000: system.switch_cpus: Raw Gem5 Running in Cycle:         5000000, Inst:        15521573
+1447030320000: system.switch_cpus: Raw Gem5 Running in Cycle:         5100000, Inst:        15871215
+1447080320000: system.switch_cpus: Raw Gem5 Running in Cycle:         5200000, Inst:        16216891
+1447130320000: system.switch_cpus: Raw Gem5 Running in Cycle:         5300000, Inst:        16567233
+1447180320000: system.switch_cpus: Raw Gem5 Running in Cycle:         5400000, Inst:        16920955
+1447230320000: system.switch_cpus: Raw Gem5 Running in Cycle:         5500000, Inst:        17273604
+1447280320000: system.switch_cpus: Raw Gem5 Running in Cycle:         5600000, Inst:        17526856
+1447330320000: system.switch_cpus: Raw Gem5 Running in Cycle:         5700000, Inst:        17659239
+1447380320000: system.switch_cpus: Raw Gem5 Running in Cycle:         5800000, Inst:        17829760
+1447430320000: system.switch_cpus: Raw Gem5 Running in Cycle:         5900000, Inst:        18148098
+1447480320000: system.switch_cpus: Raw Gem5 Running in Cycle:         6000000, Inst:        18499969
+1447530320000: system.switch_cpus: Raw Gem5 Running in Cycle:         6100000, Inst:        18844883
+1447580320000: system.switch_cpus: Raw Gem5 Running in Cycle:         6200000, Inst:        19195242
+1447630320000: system.switch_cpus: Raw Gem5 Running in Cycle:         6300000, Inst:        19547877
+1447680320000: system.switch_cpus: Raw Gem5 Running in Cycle:         6400000, Inst:        19902395
+1447730320000: system.switch_cpus: Raw Gem5 Running in Cycle:         6500000, Inst:        20248136
+1447780320000: system.switch_cpus: Raw Gem5 Running in Cycle:         6600000, Inst:        20597808
+1447830320000: system.switch_cpus: Raw Gem5 Running in Cycle:         6700000, Inst:        20943466
+1447880320000: system.switch_cpus: Raw Gem5 Running in Cycle:         6800000, Inst:        21294445
+1447930320000: system.switch_cpus: Raw Gem5 Running in Cycle:         6900000, Inst:        21642014
+1447980320000: system.switch_cpus: Raw Gem5 Running in Cycle:         7000000, Inst:        21993156
+1448030320000: system.switch_cpus: Raw Gem5 Running in Cycle:         7100000, Inst:        22340341
+1448080320000: system.switch_cpus: Raw Gem5 Running in Cycle:         7200000, Inst:        22695731
+1448130320000: system.switch_cpus: Raw Gem5 Running in Cycle:         7300000, Inst:        22932416
+1448180320000: system.switch_cpus: Raw Gem5 Running in Cycle:         7400000, Inst:        23070770
+1448230320000: system.switch_cpus: Raw Gem5 Running in Cycle:         7500000, Inst:        23249808
+1448280320000: system.switch_cpus: Raw Gem5 Running in Cycle:         7600000, Inst:        23579818
+1448330320000: system.switch_cpus: Raw Gem5 Running in Cycle:         7700000, Inst:        23931729
+1448380320000: system.switch_cpus: Raw Gem5 Running in Cycle:         7800000, Inst:        24278728
+1448430320000: system.switch_cpus: Raw Gem5 Running in Cycle:         7900000, Inst:        24629274
+1448480320000: system.switch_cpus: Raw Gem5 Running in Cycle:         8000000, Inst:        24976235
+1448530320000: system.switch_cpus: Raw Gem5 Running in Cycle:         8100000, Inst:        25329520
+1448580320000: system.switch_cpus: Raw Gem5 Running in Cycle:         8200000, Inst:        25681489
+1448630320000: system.switch_cpus: Raw Gem5 Running in Cycle:         8300000, Inst:        26026831
+1448680320000: system.switch_cpus: Raw Gem5 Running in Cycle:         8400000, Inst:        26378108
+1448730320000: system.switch_cpus: Raw Gem5 Running in Cycle:         8500000, Inst:        26725597
+1448780320000: system.switch_cpus: Raw Gem5 Running in Cycle:         8600000, Inst:        27076847
+1448830320000: system.switch_cpus: Raw Gem5 Running in Cycle:         8700000, Inst:        27423528
+1448880320000: system.switch_cpus: Raw Gem5 Running in Cycle:         8800000, Inst:        27774701
+1448930320000: system.switch_cpus: Raw Gem5 Running in Cycle:         8900000, Inst:        28124036
+1448980320000: system.switch_cpus: Raw Gem5 Running in Cycle:         9000000, Inst:        28366620
+1449030320000: system.switch_cpus: Raw Gem5 Running in Cycle:         9100000, Inst:        28529866
+1449080320000: system.switch_cpus: Raw Gem5 Running in Cycle:         9200000, Inst:        28747857
+1449130320000: system.switch_cpus: Raw Gem5 Running in Cycle:         9300000, Inst:        29092906
+1449180320000: system.switch_cpus: Raw Gem5 Running in Cycle:         9400000, Inst:        29446225
+1449230320000: system.switch_cpus: Raw Gem5 Running in Cycle:         9500000, Inst:        29803986
+1449280320000: system.switch_cpus: Raw Gem5 Running in Cycle:         9600000, Inst:        30150722
+1449330320000: system.switch_cpus: Raw Gem5 Running in Cycle:         9700000, Inst:        30502798
+1449380320000: system.switch_cpus: Raw Gem5 Running in Cycle:         9800000, Inst:        30851129
+1449430320000: system.switch_cpus: Raw Gem5 Running in Cycle:         9900000, Inst:        31204484
+1449480320000: system.switch_cpus: Raw Gem5 Running in Cycle:        10000000, Inst:        31551664
+1449530320000: system.switch_cpus: Raw Gem5 Running in Cycle:        10100000, Inst:        31901337
+1449580320000: system.switch_cpus: Raw Gem5 Running in Cycle:        10200000, Inst:        32248714
+1449630320000: system.switch_cpus: Raw Gem5 Running in Cycle:        10300000, Inst:        32605312
+1449680320000: system.switch_cpus: Raw Gem5 Running in Cycle:        10400000, Inst:        32959032
+1449730320000: system.switch_cpus: Raw Gem5 Running in Cycle:        10500000, Inst:        33311338
+1449780320000: system.switch_cpus: Raw Gem5 Running in Cycle:        10600000, Inst:        33659807
+1449830320000: system.switch_cpus: Raw Gem5 Running in Cycle:        10700000, Inst:        33827945
+1449880320000: system.switch_cpus: Raw Gem5 Running in Cycle:        10800000, Inst:        33993780
+1449930320000: system.switch_cpus: Raw Gem5 Running in Cycle:        10900000, Inst:        34253605
+1449980320000: system.switch_cpus: Raw Gem5 Running in Cycle:        11000000, Inst:        34602774
+1450030320000: system.switch_cpus: Raw Gem5 Running in Cycle:        11100000, Inst:        34948247
+1450080320000: system.switch_cpus: Raw Gem5 Running in Cycle:        11200000, Inst:        35299235
+1450130320000: system.switch_cpus: Raw Gem5 Running in Cycle:        11300000, Inst:        35645871
+1450180320000: system.switch_cpus: Raw Gem5 Running in Cycle:        11400000, Inst:        35995948
+1450230320000: system.switch_cpus: Raw Gem5 Running in Cycle:        11500000, Inst:        36343042
+1450280320000: system.switch_cpus: Raw Gem5 Running in Cycle:        11600000, Inst:        36700968
+1450330320000: system.switch_cpus: Raw Gem5 Running in Cycle:        11700000, Inst:        37046956
+1450380320000: system.switch_cpus: Raw Gem5 Running in Cycle:        11800000, Inst:        37397062
+1450430320000: system.switch_cpus: Raw Gem5 Running in Cycle:        11900000, Inst:        37742931
+1450480320000: system.switch_cpus: Raw Gem5 Running in Cycle:        12000000, Inst:        38092782
+1450530320000: system.switch_cpus: Raw Gem5 Running in Cycle:        12100000, Inst:        38436086
+1450580320000: system.switch_cpus: Raw Gem5 Running in Cycle:        12200000, Inst:        38786277
+1450630320000: system.switch_cpus: Raw Gem5 Running in Cycle:        12300000, Inst:        39132521
+1450680320000: system.switch_cpus: Raw Gem5 Running in Cycle:        12400000, Inst:        39275781
+1450730320000: system.switch_cpus: Raw Gem5 Running in Cycle:        12500000, Inst:        39459660
+1450780320000: system.switch_cpus: Raw Gem5 Running in Cycle:        12600000, Inst:        39745435
+1450830320000: system.switch_cpus: Raw Gem5 Running in Cycle:        12700000, Inst:        40097395
+1450880320000: system.switch_cpus: Raw Gem5 Running in Cycle:        12800000, Inst:        40454157
+1450930320000: system.switch_cpus: Raw Gem5 Running in Cycle:        12900000, Inst:        40808345
+1450980320000: system.switch_cpus: Raw Gem5 Running in Cycle:        13000000, Inst:        41155237
+1451030320000: system.switch_cpus: Raw Gem5 Running in Cycle:        13100000, Inst:        41507550
+1451080320000: system.switch_cpus: Raw Gem5 Running in Cycle:        13200000, Inst:        41854897
+1451130320000: system.switch_cpus: Raw Gem5 Running in Cycle:        13300000, Inst:        42205716
+1451180320000: system.switch_cpus: Raw Gem5 Running in Cycle:        13400000, Inst:        42551713
+1451230320000: system.switch_cpus: Raw Gem5 Running in Cycle:        13500000, Inst:        42902816
+1451280320000: system.switch_cpus: Raw Gem5 Running in Cycle:        13600000, Inst:        43249980
+1451330320000: system.switch_cpus: Raw Gem5 Running in Cycle:        13700000, Inst:        43606973
+1451380320000: system.switch_cpus: Raw Gem5 Running in Cycle:        13800000, Inst:        43960046
+1451430320000: system.switch_cpus: Raw Gem5 Running in Cycle:        13900000, Inst:        44308524
+1451480320000: system.switch_cpus: Raw Gem5 Running in Cycle:        14000000, Inst:        44563373
+1451530320000: system.switch_cpus: Raw Gem5 Running in Cycle:        14100000, Inst:        44703146
+1451580320000: system.switch_cpus: Raw Gem5 Running in Cycle:        14200000, Inst:        44877267
+1451630320000: system.switch_cpus: Raw Gem5 Running in Cycle:        14300000, Inst:        45184847
+1451680320000: system.switch_cpus: Raw Gem5 Running in Cycle:        14400000, Inst:        45535592
+1451730320000: system.switch_cpus: Raw Gem5 Running in Cycle:        14500000, Inst:        45883706
+1451780320000: system.switch_cpus: Raw Gem5 Running in Cycle:        14600000, Inst:        46234999
+1451830320000: system.switch_cpus: Raw Gem5 Running in Cycle:        14700000, Inst:        46588880
+1451880320000: system.switch_cpus: Raw Gem5 Running in Cycle:        14800000, Inst:        46934909
+1451930320000: system.switch_cpus: Raw Gem5 Running in Cycle:        14900000, Inst:        47285334
+1451980320000: system.switch_cpus: Raw Gem5 Running in Cycle:        15000000, Inst:        47629906
+1452030320000: system.switch_cpus: Raw Gem5 Running in Cycle:        15100000, Inst:        47979512
+1452080320000: system.switch_cpus: Raw Gem5 Running in Cycle:        15200000, Inst:        48325590
+1452130320000: system.switch_cpus: Raw Gem5 Running in Cycle:        15300000, Inst:        48676090
+1452180320000: system.switch_cpus: Raw Gem5 Running in Cycle:        15400000, Inst:        49024131
+1452230320000: system.switch_cpus: Raw Gem5 Running in Cycle:        15500000, Inst:        49383116
+1452280320000: system.switch_cpus: Raw Gem5 Running in Cycle:        15600000, Inst:        49730820
+1452330320000: system.switch_cpus: Raw Gem5 Running in Cycle:        15700000, Inst:        49976003
+1452380320000: system.switch_cpus: Raw Gem5 Running in Cycle:        15800000, Inst:        50124891
+1452430320000: system.switch_cpus: Raw Gem5 Running in Cycle:        15900000, Inst:        50300728
+1452480320000: system.switch_cpus: Raw Gem5 Running in Cycle:        16000000, Inst:        50626171
+1452530320000: system.switch_cpus: Raw Gem5 Running in Cycle:        16100000, Inst:        50971935
+1452580320000: system.switch_cpus: Raw Gem5 Running in Cycle:        16200000, Inst:        51323054
+1452630320000: system.switch_cpus: Raw Gem5 Running in Cycle:        16300000, Inst:        51667610
+1452680320000: system.switch_cpus: Raw Gem5 Running in Cycle:        16400000, Inst:        52017009
+1452730320000: system.switch_cpus: Raw Gem5 Running in Cycle:        16500000, Inst:        52372868
+1452780320000: system.switch_cpus: Raw Gem5 Running in Cycle:        16600000, Inst:        52724074
+1452830320000: system.switch_cpus: Raw Gem5 Running in Cycle:        16700000, Inst:        53068021
+1452880320000: system.switch_cpus: Raw Gem5 Running in Cycle:        16800000, Inst:        53418059
+1452930320000: system.switch_cpus: Raw Gem5 Running in Cycle:        16900000, Inst:        53764512
+1452980320000: system.switch_cpus: Raw Gem5 Running in Cycle:        17000000, Inst:        54115938
+1453030320000: system.switch_cpus: Raw Gem5 Running in Cycle:        17100000, Inst:        54462938
+1453080320000: system.switch_cpus: Raw Gem5 Running in Cycle:        17200000, Inst:        54815015
+1453130320000: system.switch_cpus: Raw Gem5 Running in Cycle:        17300000, Inst:        55172038
+1453180320000: system.switch_cpus: Raw Gem5 Running in Cycle:        17400000, Inst:        55398015
+1453230320000: system.switch_cpus: Raw Gem5 Running in Cycle:        17500000, Inst:        55553927
+1453280320000: system.switch_cpus: Raw Gem5 Running in Cycle:        17600000, Inst:        55729377
+1453330320000: system.switch_cpus: Raw Gem5 Running in Cycle:        17700000, Inst:        56074446
+1453380320000: system.switch_cpus: Raw Gem5 Running in Cycle:        17800000, Inst:        56422751
+1453430320000: system.switch_cpus: Raw Gem5 Running in Cycle:        17900000, Inst:        56775270
+1453480320000: system.switch_cpus: Raw Gem5 Running in Cycle:        18000000, Inst:        57118769
+1453530320000: system.switch_cpus: Raw Gem5 Running in Cycle:        18100000, Inst:        57468873
+1453580320000: system.switch_cpus: Raw Gem5 Running in Cycle:        18200000, Inst:        57815938
+1453630320000: system.switch_cpus: Raw Gem5 Running in Cycle:        18300000, Inst:        58169465
+1453680320000: system.switch_cpus: Raw Gem5 Running in Cycle:        18400000, Inst:        58523635
+1453730320000: system.switch_cpus: Raw Gem5 Running in Cycle:        18500000, Inst:        58871289
+1453780320000: system.switch_cpus: Raw Gem5 Running in Cycle:        18600000, Inst:        59223091
+1453830320000: system.switch_cpus: Raw Gem5 Running in Cycle:        18700000, Inst:        59570760
+1453880320000: system.switch_cpus: Raw Gem5 Running in Cycle:        18800000, Inst:        59922943
+1453930320000: system.switch_cpus: Raw Gem5 Running in Cycle:        18900000, Inst:        60270296
+1453980320000: system.switch_cpus: Raw Gem5 Running in Cycle:        19000000, Inst:        60622335
+1454030320000: system.switch_cpus: Raw Gem5 Running in Cycle:        19100000, Inst:        60825430
+1454080320000: system.switch_cpus: Raw Gem5 Running in Cycle:        19200000, Inst:        60980079
+1454130320000: system.switch_cpus: Raw Gem5 Running in Cycle:        19300000, Inst:        61161304
+1454180320000: system.switch_cpus: Raw Gem5 Running in Cycle:        19400000, Inst:        61510108
+1454230320000: system.switch_cpus: Raw Gem5 Running in Cycle:        19500000, Inst:        61861086
+1454280320000: system.switch_cpus: Raw Gem5 Running in Cycle:        19600000, Inst:        62208459
+1454330320000: system.switch_cpus: Raw Gem5 Running in Cycle:        19700000, Inst:        62558190
+1454380320000: system.switch_cpus: Raw Gem5 Running in Cycle:        19800000, Inst:        62904877
+1454430320000: system.switch_cpus: Raw Gem5 Running in Cycle:        19900000, Inst:        63254893
+1454480320000: system.switch_cpus: Raw Gem5 Running in Cycle:        20000000, Inst:        63599413
+1454530320000: system.switch_cpus: Raw Gem5 Running in Cycle:        20100000, Inst:        63951313
+1454580320000: system.switch_cpus: Raw Gem5 Running in Cycle:        20200000, Inst:        64305673
+1454630320000: system.switch_cpus: Raw Gem5 Running in Cycle:        20300000, Inst:        64656549
+1454680320000: system.switch_cpus: Raw Gem5 Running in Cycle:        20400000, Inst:        65003647
+1454730320000: system.switch_cpus: Raw Gem5 Running in Cycle:        20500000, Inst:        65355649
+1454780320000: system.switch_cpus: Raw Gem5 Running in Cycle:        20600000, Inst:        65702765
+1454830320000: system.switch_cpus: Raw Gem5 Running in Cycle:        20700000, Inst:        66054101
+1454880320000: system.switch_cpus: Raw Gem5 Running in Cycle:        20800000, Inst:        66258228
+1454930320000: system.switch_cpus: Raw Gem5 Running in Cycle:        20900000, Inst:        66399359
+1454980320000: system.switch_cpus: Raw Gem5 Running in Cycle:        21000000, Inst:        66592666
+1455030320000: system.switch_cpus: Raw Gem5 Running in Cycle:        21100000, Inst:        66943080
+1455080320000: system.switch_cpus: Raw Gem5 Running in Cycle:        21200000, Inst:        67300052
+1455130320000: system.switch_cpus: Raw Gem5 Running in Cycle:        21300000, Inst:        67649258
+1455180320000: system.switch_cpus: Raw Gem5 Running in Cycle:        21400000, Inst:        68000224
+1455230320000: system.switch_cpus: Raw Gem5 Running in Cycle:        21500000, Inst:        68347123
+1455280320000: system.switch_cpus: Raw Gem5 Running in Cycle:        21600000, Inst:        68699411
+1455330320000: system.switch_cpus: Raw Gem5 Running in Cycle:        21700000, Inst:        69047628
+1455380320000: system.switch_cpus: Raw Gem5 Running in Cycle:        21800000, Inst:        69399092
+1455430320000: system.switch_cpus: Raw Gem5 Running in Cycle:        21900000, Inst:        69745335
+1455480320000: system.switch_cpus: Raw Gem5 Running in Cycle:        22000000, Inst:        70101437
+1455530320000: system.switch_cpus: Raw Gem5 Running in Cycle:        22100000, Inst:        70455465
+1455580320000: system.switch_cpus: Raw Gem5 Running in Cycle:        22200000, Inst:        70803241
+1455630320000: system.switch_cpus: Raw Gem5 Running in Cycle:        22300000, Inst:        71155686
+1455680320000: system.switch_cpus: Raw Gem5 Running in Cycle:        22400000, Inst:        71502917
+1455730320000: system.switch_cpus: Raw Gem5 Running in Cycle:        22500000, Inst:        71681693
+1455780320000: system.switch_cpus: Raw Gem5 Running in Cycle:        22600000, Inst:        71829487
+1455830320000: system.switch_cpus: Raw Gem5 Running in Cycle:        22700000, Inst:        72048916
+1455880320000: system.switch_cpus: Raw Gem5 Running in Cycle:        22800000, Inst:        72394217
+1455930320000: system.switch_cpus: Raw Gem5 Running in Cycle:        22900000, Inst:        72746496
+1455980320000: system.switch_cpus: Raw Gem5 Running in Cycle:        23000000, Inst:        73098880
+1456030320000: system.switch_cpus: Raw Gem5 Running in Cycle:        23100000, Inst:        73452013
+1456080320000: system.switch_cpus: Raw Gem5 Running in Cycle:        23200000, Inst:        73803343
+1456130320000: system.switch_cpus: Raw Gem5 Running in Cycle:        23300000, Inst:        74150459
+1456180320000: system.switch_cpus: Raw Gem5 Running in Cycle:        23400000, Inst:        74502339
+1456230320000: system.switch_cpus: Raw Gem5 Running in Cycle:        23500000, Inst:        74848420
+1456280320000: system.switch_cpus: Raw Gem5 Running in Cycle:        23600000, Inst:        75200844
+1456330320000: system.switch_cpus: Raw Gem5 Running in Cycle:        23700000, Inst:        75549364
+1456380320000: system.switch_cpus: Raw Gem5 Running in Cycle:        23800000, Inst:        75901997
+1456430320000: system.switch_cpus: Raw Gem5 Running in Cycle:        23900000, Inst:        76256777
+1456480320000: system.switch_cpus: Raw Gem5 Running in Cycle:        24000000, Inst:        76609336
+1456530320000: system.switch_cpus: Raw Gem5 Running in Cycle:        24100000, Inst:        76957715
+1456580320000: system.switch_cpus: Raw Gem5 Running in Cycle:        24200000, Inst:        77111277
+1456630320000: system.switch_cpus: Raw Gem5 Running in Cycle:        24300000, Inst:        77267085
+1456680320000: system.switch_cpus: Raw Gem5 Running in Cycle:        24400000, Inst:        77502813
+1456730320000: system.switch_cpus: Raw Gem5 Running in Cycle:        24500000, Inst:        77852212
+1456780320000: system.switch_cpus: Raw Gem5 Running in Cycle:        24600000, Inst:        78199648
+1456830320000: system.switch_cpus: Raw Gem5 Running in Cycle:        24700000, Inst:        78550737
+1456880320000: system.switch_cpus: Raw Gem5 Running in Cycle:        24800000, Inst:        78895822
+1456930320000: system.switch_cpus: Raw Gem5 Running in Cycle:        24900000, Inst:        79253280
+1456980320000: system.switch_cpus: Raw Gem5 Running in Cycle:        25000000, Inst:        79602076
+1457030320000: system.switch_cpus: Raw Gem5 Running in Cycle:        25100000, Inst:        79953330
+1457080320000: system.switch_cpus: Raw Gem5 Running in Cycle:        25200000, Inst:        80298364
+1457130320000: system.switch_cpus: Raw Gem5 Running in Cycle:        25300000, Inst:        80648568
+1457180320000: system.switch_cpus: Raw Gem5 Running in Cycle:        25400000, Inst:        80994860
+1457230320000: system.switch_cpus: Raw Gem5 Running in Cycle:        25500000, Inst:        81345235
+1457280320000: system.switch_cpus: Raw Gem5 Running in Cycle:        25600000, Inst:        81691266
+1457330320000: system.switch_cpus: Raw Gem5 Running in Cycle:        25700000, Inst:        82044649
+1457380320000: system.switch_cpus: Raw Gem5 Running in Cycle:        25800000, Inst:        82399136
+1457430320000: system.switch_cpus: Raw Gem5 Running in Cycle:        25900000, Inst:        82526768
+1457480320000: system.switch_cpus: Raw Gem5 Running in Cycle:        26000000, Inst:        82692062
+1457530320000: system.switch_cpus: Raw Gem5 Running in Cycle:        26100000, Inst:        82961088
+1457580320000: system.switch_cpus: Raw Gem5 Running in Cycle:        26200000, Inst:        83310827
+1457630320000: system.switch_cpus: Raw Gem5 Running in Cycle:        26300000, Inst:        83659313
+1457680320000: system.switch_cpus: Raw Gem5 Running in Cycle:        26400000, Inst:        84012071
+1457730320000: system.switch_cpus: Raw Gem5 Running in Cycle:        26500000, Inst:        84359516
+1457780320000: system.switch_cpus: Raw Gem5 Running in Cycle:        26600000, Inst:        84711160
+1457830320000: system.switch_cpus: Raw Gem5 Running in Cycle:        26700000, Inst:        85057960
+1457880320000: system.switch_cpus: Raw Gem5 Running in Cycle:        26800000, Inst:        85410855
+1457930320000: system.switch_cpus: Raw Gem5 Running in Cycle:        26900000, Inst:        85764418
+1457980320000: system.switch_cpus: Raw Gem5 Running in Cycle:        27000000, Inst:        86110903
+1458030320000: system.switch_cpus: Raw Gem5 Running in Cycle:        27100000, Inst:        86462604
+1458080320000: system.switch_cpus: Raw Gem5 Running in Cycle:        27200000, Inst:        86808971
+1458130320000: system.switch_cpus: Raw Gem5 Running in Cycle:        27300000, Inst:        87160836
+1458180320000: system.switch_cpus: Raw Gem5 Running in Cycle:        27400000, Inst:        87508656
+1458230320000: system.switch_cpus: Raw Gem5 Running in Cycle:        27500000, Inst:        87830545
+1458280320000: system.switch_cpus: Raw Gem5 Running in Cycle:        27600000, Inst:        87966635
+1458330320000: system.switch_cpus: Raw Gem5 Running in Cycle:        27700000, Inst:        88136644
+1458380320000: system.switch_cpus: Raw Gem5 Running in Cycle:        27800000, Inst:        88422399
+1458430320000: system.switch_cpus: Raw Gem5 Running in Cycle:        27900000, Inst:        88772334
+1458480320000: system.switch_cpus: Raw Gem5 Running in Cycle:        28000000, Inst:        89126747
+1458530320000: system.switch_cpus: Raw Gem5 Running in Cycle:        28100000, Inst:        89471543
+1458580320000: system.switch_cpus: Raw Gem5 Running in Cycle:        28200000, Inst:        89820033
+1458630320000: system.switch_cpus: Raw Gem5 Running in Cycle:        28300000, Inst:        90164868
+1458680320000: system.switch_cpus: Raw Gem5 Running in Cycle:        28400000, Inst:        90514328
+1458730320000: system.switch_cpus: Raw Gem5 Running in Cycle:        28500000, Inst:        90859767
+1458780320000: system.switch_cpus: Raw Gem5 Running in Cycle:        28600000, Inst:        91208726
+1458830320000: system.switch_cpus: Raw Gem5 Running in Cycle:        28700000, Inst:        91560796
+1458880320000: system.switch_cpus: Raw Gem5 Running in Cycle:        28800000, Inst:        91913433
+1458930320000: system.switch_cpus: Raw Gem5 Running in Cycle:        28900000, Inst:        92257989
+1458980320000: system.switch_cpus: Raw Gem5 Running in Cycle:        29000000, Inst:        92608055
+1459030320000: system.switch_cpus: Raw Gem5 Running in Cycle:        29100000, Inst:        92953984
+1459080320000: system.switch_cpus: Raw Gem5 Running in Cycle:        29200000, Inst:        93243041
+1459130320000: system.switch_cpus: Raw Gem5 Running in Cycle:        29300000, Inst:        93400117
+1459180320000: system.switch_cpus: Raw Gem5 Running in Cycle:        29400000, Inst:        93573410
+1459230320000: system.switch_cpus: Raw Gem5 Running in Cycle:        29500000, Inst:        93896385
+1459280320000: system.switch_cpus: Raw Gem5 Running in Cycle:        29600000, Inst:        94243488
+1459330320000: system.switch_cpus: Raw Gem5 Running in Cycle:        29700000, Inst:        94595738
+1459380320000: system.switch_cpus: Raw Gem5 Running in Cycle:        29800000, Inst:        94939202
+1459430320000: system.switch_cpus: Raw Gem5 Running in Cycle:        29900000, Inst:        95295087
+1459480320000: system.switch_cpus: Raw Gem5 Running in Cycle:        30000000, Inst:        95644033
+1459530320000: system.switch_cpus: Raw Gem5 Running in Cycle:        30100000, Inst:        95995012
+1459580320000: system.switch_cpus: Raw Gem5 Running in Cycle:        30200000, Inst:        96341570
+1459630320000: system.switch_cpus: Raw Gem5 Running in Cycle:        30300000, Inst:        96692371
+1459680320000: system.switch_cpus: Raw Gem5 Running in Cycle:        30400000, Inst:        97039071
+1459730320000: system.switch_cpus: Raw Gem5 Running in Cycle:        30500000, Inst:        97388720
+1459780320000: system.switch_cpus: Raw Gem5 Running in Cycle:        30600000, Inst:        97733926
+1459830320000: system.switch_cpus: Raw Gem5 Running in Cycle:        30700000, Inst:        98087131
+1459880320000: system.switch_cpus: Raw Gem5 Running in Cycle:        30800000, Inst:        98441221
+1459930320000: system.switch_cpus: Raw Gem5 Running in Cycle:        30900000, Inst:        98682023
+1459980320000: system.switch_cpus: Raw Gem5 Running in Cycle:        31000000, Inst:        98846239
+1460030320000: system.switch_cpus: Raw Gem5 Running in Cycle:        31100000, Inst:        99037781
+1460080320000: system.switch_cpus: Raw Gem5 Running in Cycle:        31200000, Inst:        99392775
+1460130320000: system.switch_cpus: Raw Gem5 Running in Cycle:        31300000, Inst:        99738883
+Exiting @ tick 1460168147000 because a thread reached the max instruction count
+end time:(year-mon-day hour-minute-second)19-03-30 23-34-48

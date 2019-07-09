@@ -1,0 +1,26 @@
+-O3 -static
+x86
+/home/lishuoke/x-tools/x86_64-unknown-linux-gnu/bin/x86_64-unknown-linux-gnu-gcc
+	x86_64-unknown-linux-gnu-gcc (crosstool-NG 1.24.0-rc1) 7.1.0
+/home/lishuoke/x-tools/x86_64-unknown-linux-gnu/bin/x86_64-unknown-linux-gnu-g++
+	x86_64-unknown-linux-gnu-g++ (crosstool-NG 1.24.0-rc1) 7.1.0
+/home/lishuoke/x-tools/x86_64-unknown-linux-gnu/bin/x86_64-unknown-linux-gnu-gfortran
+	GNU Fortran (crosstool-NG 1.24.0-rc1) 7.1.0
+
+armv8
+/home/lishuoke/x-tools/aarch64-unknown-linux-gnu/bin/aarch64-unknown-linux-gnu-gcc
+	aarch64-unknown-linux-gnu-gcc (crosstool-NG 1.24.0-rc1) 7.1.0
+/home/lishuoke/x-tools/aarch64-unknown-linux-gnu/bin/aarch64-unknown-linux-gnu-g++
+	aarch64-unknown-linux-gnu-g++ (crosstool-NG 1.24.0-rc1) 7.1.0
+/home/lishuoke/x-tools/aarch64-unknown-linux-gnu/bin/aarch64-unknown-linux-gnu-gfortran
+	GNU Fortran (crosstool-NG 1.24.0-rc1) 7.1.0
+	
+
+alpha
+alphaev67-unknown-linux-gnu-gcc
+	alphaev67-unknown-linux-gnu-gcc (crosstool-NG-1.2.0+svn_trunk@1208) 4.3.2
+alphaev67-unknown-linux-gnu-g++
+	alphaev67-unknown-linux-gnu-g++ (crosstool-NG-1.2.0+svn_trunk@1208) 4.3.2
+alphaev67-unknown-linux-gnu-gfortran
+	GNU Fortran (crosstool-NG-1.2.0+svn_trunk@1208) 4.3.2
+	
